@@ -1,0 +1,84 @@
+.button {
+  @extend .medium-text, .pointer !optional;
+  &__add-to-cart {
+    padding: 1rem 5rem;
+    font-size: 0.70rem;
+    letter-spacing: 0.25rem;
+    border-radius: 0.30rem;
+  }
+
+  &__checkout {
+    padding: 1.8rem 5rem;
+    font-size: 0.70rem;
+    letter-spacing: 0.25rem;
+    border-radius: 0.30rem;
+  }
+}
+
+.logoContainer {
+  width: 13.5rem;
+  height: 2rem;
+}
+
+.cartIconContainer {
+  width: 1.5rem;;
+  height: 1.5rem;
+}
+
+.cartIconContainer {
+  width: 1.97rem;;
+  height: 1.97rem;
+}
+
+.arrowIconContainer {
+  width: 1rem;
+  height: 1.8rem;
+}
+
+.arrowDownContainer {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footPrintContainer {
+  width: 6rem;
+  height: 6rem;
+}
+
+.checkoutFormInput {
+  @extend .w-100 !optional;
+  @extend .br3 !optional;
+  @extend.bg-dark-gray !optional;
+  @extend .pa3 !optional;
+  @extend .bn !optional;
+  @extend .mb4 !optional;
+  @extend .light-gray !optional;
+  @extend .medium-text !optional;
+  @extend .tracked-mega-1 !optional;
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    @extend .light-gray !optional;
+    @extend .ttu !optional;
+  }
+}
+
+.checkoutFormInputLabel {
+  @extend .medium-text !optional;
+  @extend .dark-gray !optional;
+  @extend .f7 !optional;
+  @extend .tracked-mega-1 !optional;
+  @extend .ttu !optional;
+  @extend .pb2 !optional;
+  @extend .nowrap !optional;
+}
+
+.chooseASize {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0.75rem 1rem;
+  background: black;
+  p {
+    padding: 0px;
+    font-size: 2.2rem;
+  }
+}
